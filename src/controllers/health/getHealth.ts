@@ -7,7 +7,7 @@ import { Request, Response } from "express";
  * @returns res
  */
 const getHealth = async (req: Request, res: Response): Promise<Response> => {
-  return res.status(200).send({ message: "Health OK" });
+  return res.status(200).send({ message: "Health OKAY" });
 };
 
 export default getHealth;
